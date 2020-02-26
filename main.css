@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  height: 50vh;
+
+  background-color: rgba(21, 151, 226, 0.774);
+  background-position: right bottom 20%;
+  background-image: url(images/lighthouse-145556_1280.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  box-shadow: 12px 12px 10px 10px rgba(0, 0, 55, 0.2);
+}
+
+#main {
+  margin-left: 15%;
+  margin-right: 15%;
+  width: 80%;
+}
+
+body {
+  background-color: rgb(21, 32, 43);
+  color: aliceblue;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+
+  margin: 0 auto;
+
+  line-height: 1.5;
+  align-items: center;
+}
+
+p {
+  text-align: center;
+  padding-bottom: 16px;
+}
+
+.blurb,
+h2 {
+  text-align: center;
+}
+
+ul {
+  border: 2px solid white;
+  background-color: rgba(21, 151, 226, 0.774);
+  border-radius: 15px;
+  width: 80%;
+  max-width: 300px;
+  line-height: 2.5;
+  box-shadow: 12px 12px 10px 10px rgba(0, 0, 55, 0.2);
+  padding-bottom: 30px;
+  margin: auto;
+}
+
+#selected-weather-results {
+  display: none;
+  margin-top: 3em;
+}
+
+#current-weather {
+  margin-bottom: 10vh;
+}
+
+h1 {
+  margin-top: auto;
+  font-size: 34px;
+  font-weight: 100;
+  padding-left: 4%;
+}
+
+li h2 {
+  margin-left: -30px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+li {
+  list-style: none;
+}
+
+#user-time {
+  background-color: black;
+  color: aliceblue;
+}
+
+#selection,
+#reset {
+  font-size: 12px;
+  margin-left: 6px;
+  color: aliceblue;
+  background-color: rgba(21, 151, 226, 0.774);
+  border-radius: 8px;
+  border: none;
+}
+
+footer {
+  text-align: center;
+  min-height: 5vh;
+  margin-top: 20vh;
+}
+
+@media screen and (min-width: 660px) {
+  header {
+    height: 60vh;
+  }
+
+  h1 {
+    font-size: 48px;
+  }
+  p {
+    font-size: 20px;
+  }
+}
